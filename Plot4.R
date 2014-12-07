@@ -26,8 +26,8 @@ plot(x2$Sub_metering_1~x2$DateTime,type="l",ylab="Energy sub metering",xlab="")
 lines(x2$Sub_metering_2~x2$DateTime,type="l",col="Red")
 lines(x2$Sub_metering_3~x2$DateTime,type="l",col="Blue")
  
-legend("topright", col=c("black", "red", "blue"),lty=1,lwd=2,bty="n",legend=c("Sub_metering_1", "Sub_metering_2",
-       "Sub_metering_3"))
+legend("topright", col=c("black", "red", "blue"),lty=1,lwd=2,bty="n",legend=c("Sub_metering1", "Sub_metering2",
+       "Sub_metering3"))
 
 #Plot 2,2
 plot(x2$Global_reactive_power~x2$DateTime, type="l", xlab="", ylab="Global Reactive Power")
